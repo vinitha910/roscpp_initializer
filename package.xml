@@ -3,15 +3,10 @@
   <name>roscpp_initializer</name>
   <version>1.0.0</version>
   <description>
-    A minimal example package on how to use Boost::Python with catkin.
+    Python bindings for roscpp
   </description>
 
-  <maintainer email="felix@todo.todo">Felix Widmaier</maintainer>
-  <license>GPLv2</license>
-
-  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
-  <!-- Optional attribute type can be: website, bugtracker, or repository -->
-  <url type="website">https://github.com/luator/ros-boost-python</url>
+  <maintainer email="vinitha@cs.uw.edu">Vinitha Ranganeni</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
 </package>
