@@ -6,6 +6,7 @@
     Python bindings for roscpp
   </description>
 
+  <license>TODO</license>
   <maintainer email="vinitha@cs.uw.edu">Vinitha Ranganeni</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
