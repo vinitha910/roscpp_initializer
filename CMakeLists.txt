@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 2.8.12)
+cmake_minimum_required(VERSION 3.0)
 project(roscpp_initializer)
 
+set(BOOST_PYTHONLIB python-py35)
+
 find_package(catkin REQUIRED roscpp)
-find_package(Boost REQUIRED COMPONENTS system filesystem python)
-find_package(PythonLibs 2.7 REQUIRED)
+find_package(Boost 1.58 REQUIRED COMPONENTS system filesystem ${BOOST_PYTHONLIB})
 
 catkin_python_setup() 
 
