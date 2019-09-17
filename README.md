@@ -15,7 +15,7 @@ $ sudo apt-get install libboost-all-dev python3-dev libpython3-dev python-catkin
 Follow the instructions in this section if you have multiple versions of python on your machine to make sure Boost can find python 3. Use `pkg-config` to find the correct `python3` include directory. Your output should be similar to:
 
 ```shell
-$ pkg-config -cflags python3
+$ pkg-config --cflags python3
 -I/usr/include/python3.5m -I/usr/include/x86_64-linux-gnu/python3.5m
 ```
 
